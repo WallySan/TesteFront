@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+Desafio técnico - Front-end
+===========================
+### ⚙️ Linguagens e Ferramentas utilizadas:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Next.JS
+- React.JS
+- Typescipt
+- Redux Toolkit
+- Styled-components
+- Jest
+- Vercel
+- MUI
+- Eslint
+- Prettier
+- Vite
 
-## Available Scripts
+Diretrizes do desafio - Passo a Passo
+===========================
 
-In the project directory, you can run:
+O objetivo principal desse teste é avaliar sua capacidade de escrever código limpo, bem testado e reutilizável. Ao terminar, faça o deploy da aplicação e mande-nos o link.
 
-### `npm start`
+Tarefa (funcional)
+---------------
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para esse desafio, você deve consumir nossa [API REST de produtos](https://mks-challenge-api-frontend.herokuapp.com/api-docs/) para exibir a lista de produtos da loja.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A aplicação deve conter apenas uma página/rota e um carrinho.
 
-### `npm test`
+- <b>Loja</b>: A lista de produtos deve ser buscada de nossa API, use um shimmer/skeleton enquanto estiver em loading.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- <b>Carrinho</b>: O carrinho deve conter todos os produtos selecionados, juntamente com a opção de aumentar a quantidade de cada produto selecionado.
 
-### `npm run build`
+Use do Jest e a testing-library para realizar os testes unitários.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Recursos
+---------------
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+UI/UX: [Figma loja](https://www.figma.com/file/Z4z8osDbK1ET7cjNzFRMrK/MKS-Front-end-challenge?node-id=0%3A1) PS: O design system está incluso, incluindo a fonte.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+API: [API REST de produtos](https://mks-challenge-api-frontend.herokuapp.com/api-docs/) para exibir a lista de produtos da loja.
 
-### `npm run eject`
+Ferramentas requeridas
+---------------
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. TypeScript
+2. React ou Next.js (Preferimos Next.js)
+3. Redux toolkit
+4. Styled-components
+5. Jest
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Aspectos técnicos
+---------------
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Todas as ferramentas listadas anteriormente são mandatórias, além delas sinta-se livre para utilizar de qualquer outra technologia que te seja confortável.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Faça o deploy!
+---------------
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ao finalizar, faça o deploy no lugar que te for confortável (exemplo: Vercel, Netlify, Heroku, Amazon EC2, etc)
